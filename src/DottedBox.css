@@ -1,0 +1,193 @@
+.main {
+  height: 80px;
+  background-color: black;
+}
+.rowStyle {
+  padding-top: 12px;
+}
+.navClass {
+  margin: 0 100px 0 100px;
+  background-color: black;
+}
+.nav-link {
+  color: white !important;
+}
+
+.styleColor {
+  padding: 0;
+  color: white;
+  align-self: center;
+}
+.search-field {
+  position: relative;
+}
+.search-input {
+  max-width: 100%;
+  border-radius: 30px;
+  line-height: 4px;
+  border: none;
+  height: 46px;
+  color: #868686;
+  padding: 0 63px 0 52px;
+  background: #f8f8f8;
+  outline: none;
+}
+.search-submit {
+  width: 50px;
+  position: absolute;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  height: 46px;
+  line-height: 40px;
+  text-align: center;
+  left: 0px;
+  color: #000;
+  padding: 0;
+  background: transparent;
+}
+.flaticon-magnifying-glass-browser:before {
+  content: "\f104";
+  font-family: Flaticon;
+  font-size: inherit;
+  font-style: normal;
+  line-height: 1;
+}
+/* // home */
+
+section .card-body {
+  padding: 40px 45px 35px;
+  box-shadow: 0 3px 45px rgba(0, 0, 0, 0.06);
+  margin: 15px 0px 35px;
+}
+section .card-body .product-filter-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  position: relative;
+}
+section .card-body .product-filter-title:before {
+  content: "";
+  width: 35px;
+  border-top: 1px solid #f33c3c;
+  position: absolute;
+  display: inline-block;
+  margin-right: 10px;
+  left: 0;
+  bottom: -8px;
+}
+section .card-body .product-filter-checkbox label {
+  position: relative;
+  font-size: 90%;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 10px;
+  color: #868686;
+  font-weight: 600;
+}
+section .card-body .product-filter-checkbox label:hover {
+  cursor: pointer;
+  color: #f33c3c;
+}
+section .card-body .product-filter-checkbox label:hover span:before {
+  background: #f33c3c;
+  border: 1px double #f33c3c;
+  color: #f33c3c;
+  height: 9px;
+  width: 9px;
+}
+section .card-body .product-filter-checkbox label input {
+  position: relative;
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  z-index: -1;
+}
+section .card-body .product-filter-checkbox label span:before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px double #ccc;
+  margin-top: 3px;
+  margin-bottom: 6px;
+  margin-right: 12px;
+  vertical-align: middle;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+section .card-body .product-filter-checkbox label span:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 11px;
+  left: 4px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+section .card-body .filter-checkSize .size-none {
+  display: inline-block;
+  margin: 0;
+}
+section .card-body .filter-checkSize .size-none:hover span,
+section .card-body .filter-checkSize .size-none:focus span {
+  color: #000000;
+  cursor: pointer;
+}
+section .card-body .filter-checkSize .size-none input {
+  position: relative;
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  z-index: -1;
+}
+section .card-body .filter-checkSize .size-none span {
+  border-color: #b0b0b0;
+  color: #868686;
+  font-weight: 700;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 46px;
+  display: inline-block;
+  height: 46px;
+  text-align: center;
+  margin: 0 10px 10px 0;
+  line-height: 42px;
+  padding: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+section .card-body .filter-checkColor .check-color .custom-color-block {
+  padding: 4px;
+  border: 1px solid #b0b0b0;
+  box-shadow: 0 0 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+section .card-body .filter-checkColor .check-color .custom-color-block:hover {
+  cursor: pointer;
+}
+section
+  .card-body
+  .filter-checkColor
+  .check-color
+  .custom-color-block
+  .custom-color {
+  display: block;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+}
